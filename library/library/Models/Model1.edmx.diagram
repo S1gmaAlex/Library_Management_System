@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="283c7183836e4d059d0f5ce9e53997d3" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="lmsModel.author" Width="1.5" PointX="0.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="lmsModel.category" Width="1.5" PointX="0.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="lmsModel.publisher" Width="1.5" PointX="0.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="lmsModel.issuebook" Width="1.5" PointX="8.125" PointY="0.875" />
+        <EntityTypeShape EntityType="lmsModel.returnbook" Width="1.5" PointX="8.125" PointY="3.375" />
+        <EntityTypeShape EntityType="lmsModel.book" Width="1.5" PointX="3.875" PointY="2.875" />
+        <EntityTypeShape EntityType="lmsModel.member" Width="1.5" PointX="6.125" PointY="0.875" />
+        <AssociationConnector Association="lmsModel.FK_book_author" />
+        <AssociationConnector Association="lmsModel.FK_book_category" />
+        <AssociationConnector Association="lmsModel.FK_book_publisher" />
+        <EntityTypeShape EntityType="lmsModel.User" Width="1.5" PointX="10.25" PointY="0.875" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
